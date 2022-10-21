@@ -3,6 +3,10 @@ package _문자열;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+/*
+첫 시도에서 짧은 문자열 길이만큼 긴 문자열을 잘라내서 같은지 아닌지 비교하는 방식으로 풀었는데 틀렸다.
+반례를 보고 나서 긴 문자열 길이의 2배 만큼 돌면서 서로 확인하는 방식으로 풀면 되겠다고 생각한 후 풀었는데 맞았다.
+*/
 
 public class _무한문자열_12871 {
 
